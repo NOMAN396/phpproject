@@ -13,9 +13,9 @@
         public function common_select($table,$fields='*',$condition=false,$sort_field=false,$sort='ASC'){
             $result=array();
             $error=false;
-            $sql="select $fields from $table ";
+            $sql="select $fields from $table where deleted_at is null ";
             if(is_array($condition)){
-                $sql.=" where ";
+                $sql.=" and ";
                 foreach($condition as $k=>$v){
                     $sql.="$k='$v' and ";
                 }

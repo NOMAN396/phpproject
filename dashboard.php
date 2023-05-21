@@ -606,3 +606,5 @@
     <!-- /.content -->
   </div>
 <?php require_once('include/footer.php'); ?>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="<?= $base_url?>assets/dist/js/pages/dashboard.js"></script>

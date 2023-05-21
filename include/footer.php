@@ -45,8 +45,5 @@
 <script src="<?= $base_url?>assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?= $base_url?>assets/dist/js/adminlte.js"></script>
-
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="<?= $base_url?>assets/dist/js/pages/dashboard.js"></script>
 </body>
 </html>
